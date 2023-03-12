@@ -36,9 +36,7 @@ const mainFn = () => {
 
 mainFn();
 
-window.addEventListener("resize", () => {
-  window.location.reload();
-});
+
 const banner=document.getElementsByClassName('banner')[0];
 const blocks=document.getElementsByClassName('blocks');
 for(var i=1;i<400;i++ ){
